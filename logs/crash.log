@@ -1,0 +1,22 @@
+2018-11-01 14:56:21:126 - error: uncaughtException: Redis connection lost and command aborted. It might have been processed. date=Thu Nov 01 2018 14:56:21 GMT+0800 (CST), pid=3795, uid=501, gid=20, cwd=/Users/liaoxuan/Desktop/node, execPath=/usr/local/bin/node, version=v8.11.4, argv=[/usr/local/bin/node, /Users/liaoxuan/Desktop/node/app.js], rss=40398848, heapTotal=20320256, heapUsed=16230576, external=74156, loadavg=[2.54248046875, 3.15185546875, 2.7998046875], uptime=23098
+AbortError: Redis connection lost and command aborted. It might have been processed.
+    at RedisClient.flush_and_error (/Users/liaoxuan/Desktop/node/node_modules/redis/index.js:362:23)
+    at RedisClient.connection_gone (/Users/liaoxuan/Desktop/node/node_modules/redis/index.js:664:14)
+    at RedisClient.on_error (/Users/liaoxuan/Desktop/node/node_modules/redis/index.js:410:10)
+    at Socket.<anonymous> (/Users/liaoxuan/Desktop/node/node_modules/redis/index.js:279:14)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2018-11-01 14:57:55:715 - error: uncaughtException: Redis connection lost and command aborted. It might have been processed. date=Thu Nov 01 2018 14:57:55 GMT+0800 (CST), pid=3832, uid=501, gid=20, cwd=/Users/liaoxuan/Desktop/node, execPath=/usr/local/bin/node, version=v8.11.4, argv=[/usr/local/bin/node, /Users/liaoxuan/Desktop/node/app.js], rss=40345600, heapTotal=20844544, heapUsed=16233664, external=74156, loadavg=[2.0498046875, 2.798828125, 2.6943359375], uptime=23192
+AbortError: Redis connection lost and command aborted. It might have been processed.
+    at RedisClient.flush_and_error (/Users/liaoxuan/Desktop/node/node_modules/redis/index.js:362:23)
+    at RedisClient.connection_gone (/Users/liaoxuan/Desktop/node/node_modules/redis/index.js:664:14)
+    at RedisClient.on_error (/Users/liaoxuan/Desktop/node/node_modules/redis/index.js:410:10)
+    at Socket.<anonymous> (/Users/liaoxuan/Desktop/node/node_modules/redis/index.js:279:14)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
